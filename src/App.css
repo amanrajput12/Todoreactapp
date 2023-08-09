@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 2px solid  ;
+  height: 30px;
+  align-items: center;
+  
+}
+.itembtn{
+  border-radius: 50%;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+.closebtn{
+  border-radius: 50%;
+  height: 20px;
+ border: none;
+cursor: pointer;
+  
+}
+.Addbtn{
+  height: 30px;
+  width: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+input{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.editbtn{
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.highlight-item {
+  
+  background-color: yellow;
+  font-weight: bold;
+  /
+}
